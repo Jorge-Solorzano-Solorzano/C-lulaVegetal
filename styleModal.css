@@ -1,0 +1,95 @@
+.enlaceJ {
+  color: white;
+}
+
+.organelosTitulo {
+  color: #7ab96a;
+}
+
+.organelostexto {
+  color: #74b855;
+}
+.galeriaModal {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.tarjeta-foto {
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.foto-min {
+  width: 100%;
+  height: 200px;
+  object-fit: cover; /* Evita que la foto se deforme */
+  cursor: pointer;
+  transition: transform 0.3s, opacity 0.3s;
+  display: block;
+}
+
+.foto-min:hover {
+  opacity: 0.8;
+  transform: scale(1.03); /* Un pequeño efecto de zoom al pasar el mouse */
+}
+
+/* Ocultar el texto dentro de la galería */
+.texto-oculto {
+  display: none;
+}
+
+/* --- Estilo del Modal --- */
+.modal {
+  display: none; 
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+.contenido-modal {
+  background-color: #4ab84e;
+  margin: 5% auto;
+  padding: 25px;
+  width: 90%;
+  max-width: 550px;
+  border-radius: 12px;
+  text-align: center;
+  position: relative;
+}
+
+#imgModal {
+  width: 50%;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+/* Estilo para el texto cuando ya está dentro del modal */
+#infoModal h3 {
+  margin: 10px 0 5px 0;
+  color: #333;
+}
+
+#infoModal p {
+  color: #bcffab;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.cerrar {
+  position: absolute;
+  right: 15px;
+  top: 5px;
+  font-size: 35px;
+  font-weight: bold;
+  color: #aaa;
+  cursor: pointer;
+}
+
+.cerrar:hover { color: #000; }

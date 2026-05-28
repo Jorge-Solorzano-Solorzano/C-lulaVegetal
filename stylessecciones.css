@@ -1,0 +1,15 @@
+.seccion{
+    scroll-margin-top: 177px;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    max-width: 2000px;
+}
+p{
+    text-align: center;
+    padding-inline: 100px;
+}
+ul{
+    text-align: left;
+    padding-inline: 100px;
+}

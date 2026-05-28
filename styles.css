@@ -1,0 +1,98 @@
+body{
+    background-color: aliceblue;
+    color: #2b581a;
+    font: bold;
+    font-style: italic;
+    align-items: center;
+    font-size: 20px;
+}
+
+h1, h2 {
+    color: #0c4224;
+}
+
+h3, h4 {
+    color: #17681a;
+}
+
+.media{
+    padding-top: 150px;
+}
+
+.plantaes{
+    color: #12b917;
+}
+.plantae{
+    color: #a8f6a4;
+}
+
+/* === Footer === */
+footer{
+    text-align: center;
+    padding: 1rem;
+    background-color: #2b581a;
+    color: white;
+}
+
+#Diferencias{
+    background-image: url('ImagesJorge/Fondo1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#Inicio{
+    background-image: url('ImagesJorge/Fondo2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#Morfologia{
+    background-image: url('ImagesJorge/Fondo3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#Plantae{
+    background-image: url('ImagesJorge/FondoPlantae.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#Organelos{
+    background-image: url('ImagenesJenni/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#FuncionEco{
+    background-image: url('ImagenesJenni/fondo2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.negro {
+    color: black;
+}
+
+video{
+    width: 75%;
+}
+
+.video2{
+    width: 30%;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}

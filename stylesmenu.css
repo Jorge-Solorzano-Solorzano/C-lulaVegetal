@@ -1,0 +1,50 @@
+/*Menú*/
+.menu{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 1rem 0;
+    flex-wrap: nowrap;
+}
+.menu li{
+    margin: 0 15px;
+}
+.menu a{
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.5s ease, transform 2s ease;
+    font-size: 25px;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 10px;
+}
+.menu a:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+    transform: scale(1.2);
+}
+
+/*Logo*/
+.logo img{
+    height:70px;
+    transition: 1.5s ease;
+    border-radius: 50px;
+}
+
+.logo img:hover{
+    border: 1px solid white;
+    background-color: wheat;
+    transform: scale(1.2) rotate(360deg);
+}
+
+header{
+    position: fixed;
+    display: flex;
+    padding: 1rem;
+    text-align: center;
+    z-index: 1000;
+    width: 100%;
+    justify-content: center;
+    background-color: #42b165;
+    color: white;
+}

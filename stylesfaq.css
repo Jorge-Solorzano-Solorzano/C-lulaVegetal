@@ -1,0 +1,46 @@
+.faq{
+    max-width: 600px;
+    margin: 0 auto;
+    align-items: center;
+    padding: 2rem;
+    max-width: 2000px;
+    background-image: url('ImagesJorge/Fondofaq.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+details{
+    text-align: left;
+    margin-inline: 500px;
+    background-color: #a9fa9d;
+    border: 1px solid #85fe8d;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    padding: 10px;
+    padding-left: 30px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+summary{
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+}
+
+details[open]{/*Selección específica*/
+    background-color: #82fb82;
+}
+
+details p{
+    text-align: left;
+    margin: 10px 0 0 10px;
+    color: #2b3e0f;
+}
+
+h2 {
+    text-align: center;
+    color: #1f3b0d;
+}
